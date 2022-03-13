@@ -4,6 +4,7 @@ html, body
     /* overflow-x: hidden; */
     scroll-behavior: smooth;
     /* background-color: black; */
+    background-color: whitesmoke;
 
 }
 
@@ -330,4 +331,18 @@ input:focus,textarea:focus
     width: 20%;
   
 
+}
+/* Credit */
+
+.credit
+{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.credit a
+{
+    text-decoration: none;
+    color: black;
 }
