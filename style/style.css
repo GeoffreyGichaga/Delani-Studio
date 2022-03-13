@@ -213,3 +213,102 @@ html, body
 
 
 
+/* Contact Us  */
+.contact-us
+{
+    margin-top: 2%;
+    position: relative;
+}
+
+.contact-us img
+{
+    width: 100%;
+
+}
+
+.form
+{
+    width: 50%;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    /* border: 2px solid whitesmoke; */
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.form h3
+{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+#fname
+{
+    padding: 10px 150px 10px 5px;
+    border: 2px solid whitesmoke;
+    background-color: transparent;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+
+}
+/* #fname:active
+{
+    outline: none;
+} */
+
+#email
+{
+    padding: 10px 150px 10px 5px;
+    border: 2px solid whitesmoke;
+    background-color: transparent;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    font-family: 'Lato', sans-serif;
+
+}
+
+#message
+{
+    padding: 10px 460px 100px 5px;
+    border: 2px solid whitesmoke;
+    background-color: transparent;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-family: 'Lato', sans-serif;
+
+}
+
+#send
+{
+    margin-top: 20px;
+    margin-left: 40%;
+    padding: 10px 30px 10px 30px;
+    background-color: transparent;
+    color: whitesmoke;
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+
+}
+
+#send:hover
+{
+    border: 2px solid black;
+    box-shadow: 0px 0px 5px black;
+
+}
+
+::placeholder
+{
+    color: whitesmoke;
+}
+
+input:focus,textarea:focus
+{
+    outline: none;
+}
