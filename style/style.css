@@ -1,7 +1,7 @@
 html, body
 {
     margin: 0;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     scroll-behavior: smooth;
     /* background-color: black; */
 
@@ -113,3 +113,42 @@ html, body
 {
     font-size: 30px;
 }
+
+
+
+
+/* What We do  */
+
+.what-we-do
+{
+    margin-top: 2%;
+    font-family: 'Lato', sans-serif;
+
+
+}
+
+.what-we-do h3
+{
+    font-size: 30px;
+    text-align: center;
+}
+
+.what-we-do .row
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.col
+{
+    width: 30%;
+    text-align: center;
+}
+
+.col-info
+{
+    display: none;
+}
+
+
