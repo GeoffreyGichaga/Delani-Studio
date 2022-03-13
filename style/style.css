@@ -152,3 +152,64 @@ html, body
 }
 
 
+
+
+
+
+
+
+
+
+/* Portfolio */
+
+#portfolio-title{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.portfolio-grid
+{
+    width: 100vh;
+    margin-left: 5%;
+}
+
+
+
+.portfolio-grid .row
+{
+    width: 100%;
+    display: grid;
+    column-gap: 10px;
+    row-gap: 20px;
+    grid-template-columns: auto auto auto auto;
+}
+
+.cols
+{
+    margin-right: 30px;
+    width: 90%;
+    background-size: cover;
+    color: whitesmoke;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+
+}
+
+.cols img
+{
+    width: 18em;
+}
+
+
+.cols-info
+{
+    position: absolute;
+    top: 7%;
+    left: 10%;
+}
+
+
+
+
