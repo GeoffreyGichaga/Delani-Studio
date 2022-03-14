@@ -38,9 +38,9 @@ This is  porfolio site for a company called Delani ,the purpose of the site is t
 ### About Us 
 ![About us & Services](./images/sc2.png)
 ### Porfolio 
-![what we do & Porfolio](./images/sc2.png)
+![what we do & Porfolio](./images/sc3.png)
 ### Contact Us 
-![Contact](./images/sc2.png)
+![Contact](./images/sc4.png)
 
 
 
