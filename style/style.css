@@ -147,7 +147,7 @@ html, body
     text-align: center;
 }
 
-.col-info
+.colinfo1, .colinfo2, .colinfo3
 {
     display: none;
 }
