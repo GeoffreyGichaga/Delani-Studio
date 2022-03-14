@@ -509,6 +509,74 @@ input:focus,textarea:focus
 }
 
 
+@media only screen and (min-width:300px) and (max-width:770px)
+{
+    .contact-us
+    {
+        margin-top: 2%;
+        margin-bottom: 5%;
+        position: relative;
+    }
+    .contact-us img
+    {
+        width: auto;
+        height: 30em;
+        filter: brightness(60%);
+    }
+
+    .form
+    {
+        width: 50%;
+        position: absolute;
+        top: 0;
+        left: 3%;
+       
+    }
+    .form h3
+    {
+        font-size: 20px;
+    }
+    #fname
+    {
+        padding: 10px 50px 10px 5px;
+        margin-bottom: 10px;
+ 
+
+    }
+    #email
+    {
+        padding: 10px 50px 10px 5px;
+        margin-bottom: 10px;
+
+    }
+    #message
+    {
+        padding: 10px 100px 100px 5px;
+
+    }
+    #send
+    {
+        margin-left: 25%;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 
 
 
