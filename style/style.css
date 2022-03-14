@@ -342,8 +342,6 @@ input:focus,textarea:focus
 .socials
 {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
 
 }
 .socials a img
