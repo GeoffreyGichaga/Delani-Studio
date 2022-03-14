@@ -1,31 +1,9 @@
-// What - we do Section 
-// let ourWork = document.getElementById("colinfo1")
-// let workIcon1 = document.getElementById("design")
-// let workIcon2 = document.getElementById("development")
-// let workIcon3 = document.getElementById("projectM")
+// What - we do Section class toggle 
 
-
-
-
-
-
-
-
-
-
-//What we do class toggle 
-
-// let displayInfo = ()=>
-// {
-//     if(ourWork.style.display === 'none')
-//     {
-//         ourWork.style.display =='block';
-//     }
-// }
-
-// workIcon1.addEventListener("click", displayInfo)
 
 $(document).ready(()=>{
+
+    // What we do section
 
     $("#design, #design2").click(()=>
     {
@@ -49,6 +27,54 @@ $(document).ready(()=>{
     });
 
 
+    // What we do section
+
+
+    // Porfolio Section
+    $('#img1').mouseenter(()=>
+    {
+        $('.cols-info1').slideToggle();
+        $('#img1').addClass("opacity")
+    })
+
+
+    $('#img2').mouseenter(()=>
+    {
+        $('.cols-info2').slideToggle();
+    })
+
+    $('#img3').mouseenter(()=>
+    {
+        $('.cols-info3').slideToggle();
+    })
+
+    $('#img4').mouseenter(()=>
+    {
+        $('.cols-info4').slideToggle();
+    })
+
+    $('#img5').mouseenter(()=>
+    {
+        $('.cols-info5').slideToggle();
+    })
+
+
+    $('#img6').mouseenter(()=>
+    {
+        $('.cols-info6').slideToggle();
+    })
+
+
+    $('#img7').mouseenter(()=>
+    {
+        $('.cols-info7').slideToggle();
+    })
+
+
+    $('#img8').mouseenter(()=>
+    {
+        $('.cols-info8').slideToggle();
+    })
 
 
 

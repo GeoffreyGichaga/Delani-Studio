@@ -204,12 +204,33 @@ html, body
 }
 
 
-.cols-info
+.cols-info1,
+.cols-info2,
+.cols-info3,
+.cols-info4,
+.cols-info5,
+.cols-info6,
+.cols-info7,
+.cols-info8
+
+
 {
     position: absolute;
     top: 7%;
     left: 10%;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    display: none;
 }
+
+.opacity
+{
+    opacity: 0.8;
+
+}
+
+
+
 
 
 
