@@ -101,3 +101,43 @@ $(document).ready(()=>{
 
 
 });
+
+
+
+
+
+// Contact Form Validation 
+let nameInput = document.getElementById("fname");
+let emailInput = document.getElementById("email");
+let messageInput = document.getElementById("message");
+let submitBtn = document.getElementById("send")
+
+let sendMessage =()=>
+{
+
+    
+    if(nameInput.value == "")
+    {
+        alert("Enter Your Name")
+        
+    }
+    else if (emailInput.value == "")
+    {
+        alert("Enter Your Email")
+    }
+    else if (messageInput.value == "")
+    {
+        alert("Type a message")
+    }
+    else
+    {
+        alert("Thanks  " + nameInput.value + " We will get back to you soon!!!")
+        
+        
+    }
+
+
+}
+// sendMessage();
+
+submitBtn.addEventListener("click", sendMessage)
