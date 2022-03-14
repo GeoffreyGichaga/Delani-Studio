@@ -34,7 +34,7 @@ $(document).ready(()=>{
     $('#img1').mouseenter(()=>
     {
         $('.cols-info1').slideToggle();
-        $('#img1').addClass("opacity")
+        $('#img1').addClass("darken")
     })
 
 

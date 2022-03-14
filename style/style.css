@@ -223,10 +223,9 @@ html, body
     display: none;
 }
 
-.opacity
+.darken
 {
-    opacity: 0.8;
-
+    filter: brightness(50%);
 }
 
 
