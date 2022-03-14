@@ -254,6 +254,20 @@ html, body
 }
 
 
+@media only screen and (min-width:300px) and (max-width:770px)
+{
+    .what-we-do .row
+    {
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .col
+    {
+        width: 100%;
+    }
+ 
+}
 
 
 
