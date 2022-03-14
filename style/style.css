@@ -36,8 +36,8 @@ html, body
     font-family: 'Lato', sans-serif;
     text-align: center;
     position: absolute;
-    top: 32%;
-    left: 30%;
+    top: 30%;
+    left: 27%;
 
 }
 
@@ -184,7 +184,7 @@ html, body
 {
     position: absolute;
     top: 18%;
-    left: 20%;
+    left: 16%;
     color: whitesmoke;
 }
 
@@ -302,24 +302,24 @@ html, body
 .portfolio-grid
 {
     width: 100%;
-    margin-left: 5%;
+    margin-left: 2%;
 }
 
 
 
 .portfolio-grid .row
 {
-    width: 95%;
+    width: 90%;
     display: grid;
     column-gap: 10px;
-    row-gap: 20px;
+    row-gap: 10px;
     grid-template-columns: auto auto auto auto;
 }
 
 .cols
 {
     margin-right: 30px;
-    width: 90%;
+    width: 80%;
     background-size: cover;
     color: whitesmoke;
     font-family: 'Lato', sans-serif;
